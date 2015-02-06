@@ -347,9 +347,133 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@-webkit-keyframes cloud1 {
+  0% {
+    left: 65%; }
+  10% {
+    left: 80%; }
+  20% {
+    left: 65%; }
+  60% {
+    left: 5%; }
+  100% {
+    left: 65%; } }
+@-moz-keyframes cloud1 {
+  0% {
+    left: 65%; }
+  10% {
+    left: 80%; }
+  20% {
+    left: 65%; }
+  60% {
+    left: 5%; }
+  100% {
+    left: 65%; } }
+@-o-keyframes cloud1 {
+  0% {
+    left: 65%; }
+  10% {
+    left: 80%; }
+  20% {
+    left: 65%; }
+  60% {
+    left: 5%; }
+  100% {
+    left: 65%; } }
+@keyframes cloud1 {
+  0% {
+    left: 65%; }
+  10% {
+    left: 80%; }
+  20% {
+    left: 65%; }
+  60% {
+    left: 5%; }
+  100% {
+    left: 65%; } }
+@-webkit-keyframes cloud2 {
+  0% {
+    left: 14%; }
+  35% {
+    left: 60%; }
+  85% {
+    left: 5%; }
+  100% {
+    left: 14%; } }
+@-moz-keyframes cloud2 {
+  0% {
+    left: 14%; }
+  35% {
+    left: 60%; }
+  85% {
+    left: 5%; }
+  100% {
+    left: 14%; } }
+@-o-keyframes cloud2 {
+  0% {
+    left: 14%; }
+  35% {
+    left: 60%; }
+  85% {
+    left: 5%; }
+  100% {
+    left: 14%; } }
+@keyframes cloud2 {
+  0% {
+    left: 14%; }
+  35% {
+    left: 60%; }
+  85% {
+    left: 5%; }
+  100% {
+    left: 14%; } }
+@-webkit-keyframes cloud3 {
+  0% {
+    left: 24%; }
+  35% {
+    left: 70%; }
+  85% {
+    left: 15%; }
+  100% {
+    left: 24%; } }
+@-moz-keyframes cloud3 {
+  0% {
+    left: 24%; }
+  35% {
+    left: 70%; }
+  85% {
+    left: 15%; }
+  100% {
+    left: 24%; } }
+@-o-keyframes cloud3 {
+  0% {
+    left: 24%; }
+  35% {
+    left: 70%; }
+  85% {
+    left: 15%; }
+  100% {
+    left: 24%; } }
+@keyframes cloud3 {
+  0% {
+    left: 24%; }
+  35% {
+    left: 70%; }
+  85% {
+    left: 15%; }
+  100% {
+    left: 24%; } }
 /* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
 .bigBackground--chalk {
   background-image: url("/images/index--bg.jpg"); }
+
+/* line 6, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
+.index--heading {
+  font-family: "futura-pt", Helvetica, sans-serif;
+  letter-spacing: 5px;
+  font-size: 4.35em;
+  color: #fff;
+  margin-bottom: 0; }
 
 /* line 13, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook {
@@ -361,35 +485,34 @@ table {
     .storybook {
       height: auto;
       margin-bottom: 10em; } }
-  @media screen and (max-width: 400px) {
-    /* line 13, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-    .storybook {
-      padding: 0 1em; } }
-  /* line 27, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 23, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .storybook:first-child {
-    padding-top: 12%; }
+    padding-top: 10%; }
     @media screen and (max-width: 400px) {
-      /* line 27, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+      /* line 23, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
       .storybook:first-child {
         padding-top: 2em; } }
-  /* line 35, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 31, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .storybook p {
     max-width: 700px;
     margin: 1em auto; }
 
-/* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 37, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #dreamer {
-  background-image: linear-gradient(#d0e7ec, white); }
+  background-image: linear-gradient(white, #d0e7ec, white); }
 
-/* line 45, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook__line {
   font-size: 2em;
   font-weight: 300;
   color: #bcbcbc;
   font-style: italic;
   margin: 0 auto; }
+  /* line 48, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  #dreamer .storybook__line {
+    color: #63afc0; }
   @media screen and (max-width: 400px) {
-    /* line 45, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .storybook__line {
       text-align: left;
       font-size: 1.5em; } }
@@ -417,139 +540,115 @@ table {
       font-size: 1em;
       text-align: left; } }
 
-/* line 86, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 82, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+#hungry {
+  background-image: url("/images/hungry.jpg");
+  padding-top: 12%; }
+  /* line 87, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  #hungry h2, #hungry p {
+    color: #fff; }
+
+/* line 92, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+#fearless {
+  background-image: url("/images/alligator.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  padding-bottom: 5em; }
+  @media screen and (max-width: 400px) {
+    /* line 92, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    #fearless {
+      background-size: 100%;
+      padding: 0; } }
+  /* line 103, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  #fearless h2 {
+    color: #57614b; }
+  /* line 107, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  #fearless .l--container {
+    padding-top: 12em; }
+    @media screen and (max-width: 400px) {
+      /* line 107, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+      #fearless .l--container {
+        padding-top: 4em; } }
+
+/* line 120, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.backCover {
+  background-color: #ffcccc;
+  height: 100vh; }
+
+/* line 126, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__block {
   padding: 0 1em;
   font-size: 80%;
   line-height: 1.5; }
 
-/* line 92, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 132, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__heading {
   font-family: "futura-pt", Helvetica, sans-serif;
   text-transform: uppercase;
-  margin: 0; }
+  margin: 0;
+  opacity: .8; }
 
-/* line 98, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 139, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__text {
   text-align: left;
-  margin: 0; }
+  margin: 0;
+  opacity: .6; }
 
-/* line 103, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-.index--heading {
-  font-family: "futura-pt", Helvetica, sans-serif;
-  letter-spacing: 5px;
-  font-size: 4.35em;
-  color: #fff;
-  margin-bottom: 0; }
-
-/* line 111, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 145, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .airplane {
   width: 90%;
   max-width: 800px; }
-  /* line 115, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 149, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .airplane img {
     width: 100%; }
 
-/* line 124, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-#clouds {
-  position: relative;
-  width: 100%;
-  user-select: none; }
-  /* line 129, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-  #clouds div {
-    position: absolute;
-    width: 800px;
-    height: 289px;
-    background-image: url(http://www.scri8e.com/stars/PNG_Clouds/zc06.png);
-    z-index: 0;
-    background-repeat: no-repeat;
-    opacity: 0.15;
-    top: 155px;
-    -webkit-animation: cloud1 230s linear infinite;
-    -moz-animation: cloud1 230s linear infinite;
-    -o-animation: cloud1 230s linear infinite;
-    animation: cloud1 230s linear infinite; }
-  /* line 149, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-  #clouds #cloud2 {
-    background-size: 50%;
-    top: 140px;
-    z-index: 1;
-    -ms-transform: rotate(160deg);
-    -webkit-transform: rotate(160deg);
-    transform: rotate(160deg);
-    -webkit-animation: cloud2 150s linear infinite;
-    -moz-animation: cloud2 150s linear infinite;
-    -o-animation: cloud2 150s linear infinite;
-    animation: cloud2 150s linear infinite; }
-  /* line 164, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-  #clouds #cloud3 {
-    background-size: 70%;
-    top: 375px;
-    -webkit-animation: cloud3 200s linear infinite;
-    -moz-animation: cloud3 200s linear infinite;
-    -o-animation: cloud3 200s linear infinite;
-    animation: cloud3 200s linear infinite; }
+/* line 158, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.cloud, .cloudOne,
+.cloudTwo,
+.cloudThree {
+  fill: #fff;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  background-image: url(/images/icons/cloud.svg);
+  background-repeat: no-repeat;
+  opacity: 0.35;
+  z-index: 0; }
 
-@-webkit-keyframes cloud1 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 110%; } }
-@-moz-keyframes cloud1 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 110%; } }
-@-o-keyframes cloud1 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 110%; } }
-@keyframes cloud1 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 110%; } }
-@-webkit-keyframes cloud2 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 115%; } }
-@-moz-keyframes cloud2 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 115%; } }
-@-o-keyframes cloud2 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 115%; } }
-@keyframes cloud2 {
-  0% {
-    left: -20%; }
-  100% {
-    left: 115%; } }
-@-webkit-keyframes cloud3 {
-  0% {
-    left: -15%; }
-  100% {
-    left: 110%; } }
-@-moz-keyframes cloud3 {
-  0% {
-    left: -15%; }
-  100% {
-    left: 110%; } }
-@-o-keyframes cloud3 {
-  0% {
-    left: -15%; }
-  100% {
-    left: 110%; } }
-@keyframes cloud3 {
-  0% {
-    left: -15%; }
-  100% {
-    left: 110%; } }
+/* line 169, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.clouds {
+  position: absolute;
+  width: 90%;
+  overflow: hidden;
+  height: 500px; }
+
+/* line 182, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.cloudOne {
+  opacity: 0.4;
+  top: 30px;
+  -webkit-animation: cloud1 200s linear infinite;
+  -moz-animation: cloud1 200s linear infinite;
+  -o-animation: cloud1 200s linear infinite;
+  animation: cloud1 200s linear infinite; }
+
+/* line 192, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.cloudTwo {
+  top: 100px;
+  opacity: .5;
+  -webkit-animation: cloud2 200s linear infinite;
+  -moz-animation: cloud2 200s linear infinite;
+  -o-animation: cloud2 200s linear infinite;
+  animation: cloud2 200s linear infinite; }
+
+/* line 202, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+.cloudThree {
+  top: 240px;
+  z-index: 2;
+  -webkit-animation: cloud3 200s linear infinite;
+  -moz-animation: cloud3 200s linear infinite;
+  -o-animation: cloud3 200s linear infinite;
+  animation: cloud3 200s linear infinite; }
+
 /* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 *,
 *:after,
@@ -604,14 +703,14 @@ a {
     color: #ffaa55; }
 
 /* line 60, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
-.flexbox--center {
+.flexbox--center, .backCover {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
 
 /* line 67, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
-.bigBackground--chalk {
+.bigBackground--chalk, #hungry {
   min-height: 100%;
   background-position: 50% 50%;
   background-size: cover; }
@@ -660,8 +759,8 @@ a {
     /* line 30, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_layout.css.scss */
     .l--half {
       width: 100%;
-      margin: 0;
-      padding: 0; } }
+      padding: 0;
+      margin-bottom: 2em; } }
 
 /* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_layout.css.scss */
 .l--quarter {
