@@ -494,9 +494,10 @@ table {
     left: 24%; } }
 /* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
 .bigBackground--chalk {
+  height: 100vh;
   background-image: url("/images/index--bg.jpg"); }
 
-/* line 6, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
+/* line 7, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
 .index--heading {
   font-family: "futura-pt", Helvetica, sans-serif;
   letter-spacing: 5px;
@@ -639,6 +640,7 @@ table {
 .cloudThree {
   fill: #fff;
   position: absolute;
+  left: 0;
   width: 80px;
   height: 50px;
   background-image: url(/images/icons/cloud.svg);
@@ -646,14 +648,14 @@ table {
   opacity: 0.35;
   z-index: 0; }
 
-/* line 172, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 173, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .clouds {
   position: absolute;
   width: 90%;
   overflow: hidden;
   height: 500px; }
 
-/* line 185, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 186, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudOne {
   -webkit-animation: cloud1 200s linear infinite;
   -moz-animation: cloud1 200s linear infinite;
@@ -663,7 +665,7 @@ table {
   opacity: 0.4;
   top: 0; }
 
-/* line 191, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 192, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudTwo {
   -webkit-animation: cloud2 200s linear infinite;
   -moz-animation: cloud2 200s linear infinite;
@@ -673,7 +675,7 @@ table {
   top: 100px;
   opacity: .5; }
 
-/* line 197, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 198, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudThree {
   -webkit-animation: cloud3 200s linear infinite;
   -moz-animation: cloud3 200s linear infinite;
