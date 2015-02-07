@@ -602,35 +602,39 @@ table {
 .backCover {
   background-color: #ffcccc;
   height: 100vh; }
+  @media screen and (max-width: 400px) {
+    /* line 119, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    .backCover {
+      height: 1136px; } }
 
-/* line 125, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 129, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__block {
   padding: 0 1em;
   font-size: 80%;
   line-height: 1.5; }
 
-/* line 131, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 135, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__heading {
   font-family: "futura-pt", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0;
   opacity: .8; }
 
-/* line 138, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 142, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__text {
   text-align: left;
   margin: 0;
   opacity: .6; }
 
-/* line 144, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 148, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .airplane {
   width: 90%;
   max-width: 800px; }
-  /* line 148, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 152, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .airplane img {
     width: 100%; }
 
-/* line 157, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 161, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloud, .cloudOne,
 .cloudTwo,
 .cloudThree {
@@ -643,14 +647,14 @@ table {
   opacity: 0.35;
   z-index: 0; }
 
-/* line 168, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 172, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .clouds {
   position: absolute;
   width: 90%;
   overflow: hidden;
   height: 500px; }
 
-/* line 181, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 185, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudOne {
   -webkit-animation: cloud1 200s linear infinite;
   -moz-animation: cloud1 200s linear infinite;
@@ -660,7 +664,7 @@ table {
   opacity: 0.4;
   top: 0; }
 
-/* line 187, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 191, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudTwo {
   -webkit-animation: cloud2 200s linear infinite;
   -moz-animation: cloud2 200s linear infinite;
@@ -670,7 +674,7 @@ table {
   top: 100px;
   opacity: .5; }
 
-/* line 193, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 197, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudThree {
   -webkit-animation: cloud3 200s linear infinite;
   -moz-animation: cloud3 200s linear infinite;
