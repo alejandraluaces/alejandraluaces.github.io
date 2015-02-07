@@ -508,8 +508,7 @@ table {
 .storybook {
   text-align: center;
   z-index: 1;
-  height: 100vh;
-  padding: 10em 0; }
+  height: 100vh; }
   @media screen and (max-width: 400px) {
     /* line 13, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .storybook {
@@ -745,7 +744,7 @@ a {
     color: #ffaa55; }
 
 /* line 69, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
-.flexbox--center, .backCover {
+.flexbox--center, .storybook, .backCover {
   display: flex;
   align-items: center;
   justify-content: center;
