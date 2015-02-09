@@ -504,12 +504,20 @@ table {
   font-size: 4.35em;
   color: #fff;
   margin-bottom: 0; }
+  @media screen and (max-width: 800px) {
+    /* line 7, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
+    .index--heading {
+      font-size: 3em; } }
+  @media screen and (max-width: 568px) {
+    /* line 7, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
+    .index--heading {
+      font-size: 2em; } }
 
 /* line 13, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook {
   text-align: center;
   z-index: 1;
-  height: 100vh; }
+  min-height: 100vh; }
 
 /* line 20, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #dreamer {
