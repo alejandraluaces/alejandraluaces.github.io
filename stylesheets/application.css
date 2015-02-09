@@ -510,131 +510,123 @@ table {
   text-align: center;
   z-index: 1;
   height: 100vh; }
-  @media screen and (max-width: 400px) {
-    /* line 13, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-    .storybook {
-      height: auto;
-      padding: 3em 0; } }
-  /* line 24, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
-  .storybook p {
-    max-width: 700px;
-    margin: 1em auto; }
 
-/* line 30, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 20, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #dreamer {
   background-image: linear-gradient(white, #d0e7ec, white); }
 
-/* line 34, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 24, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook__line {
   font-size: 1.75em;
   font-weight: 300;
   color: #bcbcbc;
   font-style: italic;
   margin: 0 auto; }
-  /* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 31, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   #dreamer .storybook__line {
     color: #63afc0; }
   @media screen and (max-width: 400px) {
-    /* line 34, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 24, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .storybook__line {
       text-align: left;
       font-size: 1.5em; } }
 
-/* line 51, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook__image {
   max-width: 500px;
   margin: 0 auto 2em; }
-  /* line 55, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 45, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .storybook__image img {
     width: 100%; }
   @media screen and (max-width: 400px) {
-    /* line 51, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .storybook__image {
       width: 90%; } }
 
-/* line 64, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook__text {
   font-family: "freight-text-pro", Times, serif;
-  margin-bottom: 2em;
-  text-align: center; }
+  text-align: center;
+  max-width: 700px;
+  margin: 1em auto;
+  font-size: 100%; }
   @media screen and (max-width: 400px) {
-    /* line 64, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .storybook__text {
-      font-size: 1em;
       text-align: left; } }
 
-/* line 75, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 66, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #hungry {
   background-image: url("/images/hungry.jpg"); }
-  /* line 79, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 70, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   #hungry h2, #hungry p {
     color: #333; }
-  /* line 83, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 74, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   #hungry h2 {
     margin-top: 3em; }
 
-/* line 88, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 79, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #fearless {
   background-image: url("/images/alligator.png");
   background-repeat: no-repeat;
   background-position: 100% 30%; }
   @media screen and (max-width: 400px) {
-    /* line 88, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 79, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     #fearless {
       background-size: 100%;
       padding: 0; } }
-  /* line 98, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 89, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   #fearless h2 {
     color: #57614b; }
-  /* line 102, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 93, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   #fearless .l--container {
     padding-top: 20em; }
     @media screen and (max-width: 400px) {
-      /* line 102, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+      /* line 93, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
       #fearless .l--container {
         padding-top: 4em; } }
 
-/* line 111, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 102, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 #team {
   margin-bottom: 5em; }
 
-/* line 119, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 110, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover {
   background-color: #ffcccc;
   height: 100vh; }
   @media screen and (max-width: 400px) {
-    /* line 119, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+    /* line 110, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
     .backCover {
       height: 1136px; } }
 
-/* line 129, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 120, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__block {
   padding: 0 1em;
   font-size: 80%;
   line-height: 1.5; }
 
-/* line 135, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 126, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__heading {
   font-family: "futura-pt", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0;
   opacity: .8; }
 
-/* line 142, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 133, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__text {
   text-align: left;
   margin: 0;
   opacity: .6; }
 
-/* line 148, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 139, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .airplane {
   width: 90%;
   max-width: 800px; }
-  /* line 152, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+  /* line 143, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
   .airplane img {
     width: 100%; }
 
-/* line 161, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 152, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloud, .cloudOne,
 .cloudTwo,
 .cloudThree {
@@ -647,7 +639,7 @@ table {
   opacity: 0.35;
   z-index: 0; }
 
-/* line 172, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 163, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .clouds {
   position: absolute;
   width: 90%;
@@ -655,7 +647,7 @@ table {
   height: 500px;
   left: 0; }
 
-/* line 186, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 177, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudOne {
   -webkit-animation: cloud1 200s linear infinite;
   -moz-animation: cloud1 200s linear infinite;
@@ -665,7 +657,7 @@ table {
   opacity: 0.4;
   top: 0; }
 
-/* line 192, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 183, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudTwo {
   -webkit-animation: cloud2 200s linear infinite;
   -moz-animation: cloud2 200s linear infinite;
@@ -675,7 +667,7 @@ table {
   top: 100px;
   opacity: .5; }
 
-/* line 198, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
+/* line 189, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .cloudThree {
   -webkit-animation: cloud3 200s linear infinite;
   -moz-animation: cloud3 200s linear infinite;
@@ -708,11 +700,9 @@ body {
   font-style: normal;
   line-height: 1.5;
   box-sizing: border-box;
-  min-height: 100%;
   border-left: 10px solid #ffcccc;
-  border-right: 10px solid #ffcccc;
-  padding-top: 3em; }
-  /* line 28, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+  border-right: 10px solid #ffcccc; }
+  /* line 26, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
   body:before, body:after {
     content: "";
     position: fixed;
@@ -720,10 +710,10 @@ body {
     left: 0;
     right: 0;
     height: 10px; }
-  /* line 38, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+  /* line 36, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
   body:before {
     top: 0; }
-  /* line 42, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+  /* line 40, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
   body:after {
     bottom: 0; }
   @media screen and (max-width: 400px) {
@@ -731,11 +721,11 @@ body {
     body {
       border: none;
       padding: 0; }
-      /* line 50, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+      /* line 48, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
       body:before, body:after {
         display: none; } }
 
-/* line 57, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+/* line 55, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 a {
   transition: .2s all ease-in-out;
   text-decoration: none;
@@ -743,31 +733,31 @@ a {
   font-family: "futura-pt", Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: .85em; }
-  /* line 65, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+  /* line 63, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
   a:hover, a:focus {
     color: #ffaa55; }
 
-/* line 71, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+/* line 69, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 .flexbox--center, .storybook, .backCover {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
 
-/* line 78, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+/* line 76, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 .bigBackground--chalk, #hungry {
   min-height: 100%;
   background-position: 50% 50%;
   background-size: cover; }
 
-/* line 84, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+/* line 82, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 .icon {
   height: 20px;
   width: 20px;
   display: inline-block;
   margin-right: 1em;
   fill: #fff; }
-  /* line 91, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
+  /* line 89, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
   a:hover .icon {
     fill: #ff5555;
     transition: .2s all ease-in-out; }
