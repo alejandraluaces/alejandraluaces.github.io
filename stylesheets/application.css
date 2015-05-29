@@ -499,7 +499,7 @@ table {
 
 /* line 7, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_index.css.scss */
 .index--heading {
-  font-family: "futura-pt", Helvetica, sans-serif;
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
   letter-spacing: 5px;
   font-size: 4.35em;
   color: #fff;
@@ -553,7 +553,7 @@ table {
 
 /* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .storybook__text {
-  font-family: "freight-text-pro", Times, serif;
+  font-family: "ff-meta-serif-web-pro", Times, serif;
   text-align: center;
   max-width: 700px;
   margin: 1em auto;
@@ -616,7 +616,7 @@ table {
 
 /* line 127, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_storybook.css.scss */
 .backCover__heading {
-  font-family: "futura-pt", Helvetica, sans-serif;
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0;
   opacity: .8; }
@@ -704,7 +704,7 @@ html {
 
 /* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */
 body {
-  font-family: "freight-text-pro", Times, serif;
+  font-family: "ff-meta-serif-web-pro", Times, serif;
   font-style: normal;
   line-height: 1.5;
   box-sizing: border-box; }
@@ -733,7 +733,7 @@ a {
   transition: .2s all ease-in-out;
   text-decoration: none;
   color: #ff5555;
-  font-family: "futura-pt", Helvetica, sans-serif;
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: .85em; }
   /* line 56, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/_base.css.scss */

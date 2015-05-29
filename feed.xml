@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>alejandra luaces</title>
+  <id>http://blog.alejandra.io/</id>
+  <link href="http://blog.alejandra.io/"/>
+  <link href="http://blog.alejandra.io/feed.xml" rel="self"/>
+  <updated>2015-05-14T19:00:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Blogging With Middleman</title>
+    <link rel="alternate" href="http://blog.alejandra.io/2015/05/15/blogging-with-middleman.html"/>
+    <id>http://blog.alejandra.io/2015/05/15/blogging-with-middleman.html</id>
+    <published>2015-05-14T19:00:00-05:00</published>
+    <updated>2015-05-29T13:20:02-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
