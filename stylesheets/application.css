@@ -110,10 +110,9 @@ body {
 
 /* line 11, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
 .headerMain {
-  align: center;
-  padding: 36px 18px; }
+  align: center; }
 
-/* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
+/* line 17, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
 .pagination--summary__list {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -121,7 +120,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column; }
   @media screen and (min-width: 576px) {
-    /* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
+    /* line 17, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
     .pagination--summary__list {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -140,7 +139,7 @@ body {
     .bodyLayout {
       width: 80%; } }
 
-/* line 41, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
+/* line 42, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/02-base/_layout.scss */
 .contentMain {
   display: -webkit-box;
   display: -webkit-flex;
@@ -156,6 +155,19 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 2em 0; }
+
+/* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_icons.scss */
+.icon {
+  display: inline-block;
+  margin-right: 1em;
+  padding-bottom: 18px;
+  fill: #999;
+  display: block; }
+  /* line 8, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_icons.scss */
+  a:hover .icon {
+    fill: #FF6347;
+    -webkit-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out; }
 
 /* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_links.scss */
 a {
@@ -206,7 +218,7 @@ li {
   font-weight: 300; }
 
 /* line 26, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_text.scss */
-.scale--4, .pagination--summary__title, .articlesMain__heading, .portfolioItem__name, .portfolioItem__caption {
+.scale--4, .articlesMain__heading, .pagination--summary__title, .portfolioItem__name, .portfolioItem__caption {
   font-size: 1.758em;
   font-family: Lato, Helvetica, sans-serif;
   color: #333;
@@ -228,7 +240,7 @@ li {
 
 /* line 26, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_text.scss */
 .scale--7, .time__title,
-.tags__title, .pagination--summary__heading, .articlesMain .date, .portfolioItem__tags {
+.tags__title, .articlesMain .date, .pagination--summary__heading, .portfolioItem__tags {
   font-size: 0.64em;
   font-family: Lato, Helvetica, sans-serif;
   color: #ccc;
@@ -237,7 +249,7 @@ li {
 
 /* line 38, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_text.scss */
 .scale--7, .time__title,
-.tags__title, .pagination--summary__heading, .articlesMain .date, .portfolioItem__tags {
+.tags__title, .articlesMain .date, .pagination--summary__heading, .portfolioItem__tags {
   letter-spacing: 1px; }
 
 /* line 43, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_text.scss */
@@ -387,34 +399,65 @@ p a {
     .time {
       margin-bottom: 0; } }
 
-/* line 167, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+/* line 174, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__item {
+  margin-bottom: 2em; }
+
+/* line 178, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__link {
+  display: block; }
+
+/* line 182, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__bodyLink {
+  display: block;
+  color: #FF6347;
+  line-height: 1.736; }
+
+/* line 188, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__header {
+  margin-bottom: .5em; }
+
+/* line 192, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__heading {
+  margin-bottom: .2em; }
+
+/* line 197, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+.articlesMain__description {
+  color: #333;
+  text-decoration: none;
+  line-height: 1.736; }
+  /* line 201, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+  .articlesMain__description > p {
+    margin-bottom: 1em; }
+
+/* line 6, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
 .pagination--summary {
   border-top: 1px solid #e0e0e0;
   padding: 36px 18px; }
-  /* line 171, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+  /* line 10, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
   .pagination--summary .time {
     margin-bottom: 0; }
 
-/* line 176, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+/* line 15, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
 .pagination--summary--next {
   text-align: right;
   border-left: 1px solid #e0e0e0; }
   @media screen and (max-width: 430px) {
-    /* line 176, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+    /* line 15, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
     .pagination--summary--next {
       border-left: 0;
       border-top: 1px solid #e0e0e0;
       padding-top: 18px; } }
 
-/* line 196, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+/* line 35, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
 .pagination--summary__heading {
   margin-bottom: 1em; }
   @media screen and (max-width: 430px) {
-    /* line 196, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+    /* line 35, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
     .pagination--summary__heading {
       margin: 0; } }
 
-/* line 209, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+/* line 48, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
 .pagination--summary--next, .pagination--summary--prev {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
@@ -423,45 +466,14 @@ p a {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   @media screen and (max-width: 430px) {
-    /* line 209, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+    /* line 48, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
     .pagination--summary--next, .pagination--summary--prev {
       text-align: center; }
-      /* line 215, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
+      /* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navBlog.scss */
       .pagination--summary--next .pagination--summary__title, .pagination--summary--prev .pagination--summary__title,
       .pagination--summary--next .time,
       .pagination--summary--prev .time {
         display: none; } }
-
-/* line 233, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__item {
-  margin-bottom: 2em; }
-
-/* line 237, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__link {
-  display: block; }
-
-/* line 241, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__bodyLink {
-  display: block;
-  color: #FF6347;
-  line-height: 1.736; }
-
-/* line 247, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__header {
-  margin-bottom: .5em; }
-
-/* line 251, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__heading {
-  margin-bottom: .2em; }
-
-/* line 256, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-.articlesMain__description {
-  color: #333;
-  text-decoration: none;
-  line-height: 1.736; }
-  /* line 260, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_articles.scss */
-  .articlesMain__description > p {
-    margin-bottom: 1em; }
 
 /* line 5, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navHeader.scss */
 .navHeader__list {
@@ -471,12 +483,13 @@ p a {
 .navHeader__item {
   list-style-type: none;
   display: inline;
-  font-size: 0.889em; }
+  font-size: 0.889em;
+  margin-right: 2em; }
 
-/* line 16, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navHeader.scss */
+/* line 17, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navHeader.scss */
 .navHeader__link {
   color: #666; }
-  /* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navHeader.scss */
+  /* line 19, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/04-molecules/_navHeader.scss */
   .navHeader__link:hover {
     color: #FF6347; }
 
@@ -558,18 +571,46 @@ p a {
   border-bottom: 1px solid #e0e0e0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
-  flex-shrink: 0; }
+  flex-shrink: 0;
+  padding: 36px 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  @media screen and (min-width: 550px) {
+    /* line 5, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+    .headerMain {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
 
-/* line 11, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .headerName {
   font-size: 1em;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 1em; }
+  @media screen and (min-width: 550px) {
+    /* line 18, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+    .headerName {
+      margin-bottom: 0; } }
 
-/* line 16, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+@media screen and (max-width: 430px) {
+  /* line 27, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  .hideonmobile {
+    display: none; } }
+
+/* line 34, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .headerName__link {
   color: #333; }
 
-/* line 24, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 42, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .footerMain {
   display: -webkit-box;
   display: -webkit-flex;
@@ -594,11 +635,11 @@ p a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
-  /* line 34, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  /* line 52, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
   .footerMain a {
     margin-bottom: 18px; }
 
-/* line 39, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 57, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .footerText {
   font-size: .8em;
   color: #666;
@@ -608,19 +649,6 @@ p a {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 1em auto; }
-  /* line 49, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  /* line 67, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
   .footerText a {
     font-weight: 600; }
-
-/* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
-.icon {
-  display: inline-block;
-  margin-right: 1em;
-  padding-bottom: 18px;
-  fill: #999;
-  display: block; }
-  /* line 61, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
-  a:hover .icon {
-    fill: #FF6347;
-    -webkit-transition: .2s all ease-in-out;
-    transition: .2s all ease-in-out; }
