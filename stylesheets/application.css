@@ -154,7 +154,8 @@ body {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 2em auto; }
 
 /* line 1, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/03-atoms/_links.scss */
 a {
@@ -555,21 +556,20 @@ p a {
 /* line 5, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .headerMain {
   border-bottom: 1px solid #e0e0e0;
-  margin-bottom: 2em;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0; }
 
-/* line 12, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 11, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .headerName {
   font-size: 1em;
   font-weight: 700; }
 
-/* line 17, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 16, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .headerName__link {
   color: #333; }
 
-/* line 25, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 24, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .footerMain {
   display: -webkit-box;
   display: -webkit-flex;
@@ -594,11 +594,11 @@ p a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
-  /* line 35, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  /* line 34, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
   .footerMain a {
     margin-bottom: 18px; }
 
-/* line 40, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 39, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .footerText {
   font-size: .8em;
   color: #666;
@@ -608,18 +608,18 @@ p a {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 1em auto; }
-  /* line 50, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  /* line 49, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
   .footerText a {
     font-weight: 600; }
 
-/* line 55, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+/* line 54, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
 .icon {
   display: inline-block;
   margin-right: 1em;
   padding-bottom: 18px;
   fill: #999;
   display: block; }
-  /* line 62, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
+  /* line 61, /Users/alejandra/Desktop/alejandraluaces.github.io/source/stylesheets/05-organisms/_global.scss */
   a:hover .icon {
     fill: #FF6347;
     -webkit-transition: .2s all ease-in-out;
