@@ -27,7 +27,30 @@
     </header>
     <section class='contentMain'>
       <div id='main' role='main'>
-        <h2 class='intro'>I am cross-disciplinary designer passionately working toward finding ways to help design and development teams work better together.</h2>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <title>Blog Name</title>
+          <subtitle>Blog subtitle</subtitle>
+          <id>http://blog.url.com/writing</id>
+          <link href="http://blog.url.com/writing"/>
+          <link href="http://blog.url.com/feed.xml" rel="self"/>
+          <updated>2015-06-10T19:00:00-05:00</updated>
+          <author>
+            <name>Blog Author</name>
+          </author>
+          <entry>
+            <title>Initial Blog Post</title>
+            <link rel="alternate" href="http://blog.url.com/writing/source/reflections.html"/>
+            <id>http://blog.url.com/writing/source/reflections.html</id>
+            <published>2015-06-10T19:00:00-05:00</published>
+            <updated>2015-06-11T23:25:19-05:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;Won't you check out my &lt;a href="http://dribbble.com/"&gt;dribbble&lt;/a&gt; or &lt;a href="http://twitter.com/alejandraluaces"&gt;get in touch&lt;/a&gt; instead? Thanks!&lt;/p&gt;
+        </content>
+          </entry>
+        </feed>
       </div>
     </section>
     <footer class='footerMain'>
