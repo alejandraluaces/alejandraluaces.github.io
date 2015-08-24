@@ -1,8 +1,1 @@
-$(function() {
-     var pgurl = window.location.href.substr(window.location.href
-.lastIndexOf("/")+1);
-     $("nav li a").each(function(){
-          if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
-          $(this).addClass("currentPage");
-     })
-});
+$(function(){var t=window.location.href.substr(window.location.href.lastIndexOf("/")+1);$("nav li a").each(function(){($(this).attr("href")==t||""==$(this).attr("href"))&&$(this).addClass("currentPage")})});
