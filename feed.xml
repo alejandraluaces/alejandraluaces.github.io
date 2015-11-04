@@ -3,29 +3,24 @@
     <meta charset='utf-8'>
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <title>Alejandra Luaces</title>
-    <link href="&lt;link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic|Playfair+Display:400,700,400italic' rel='stylesheet' type='text/css'&gt;" rel='stylesheet' type='text/css'>
+    <link href="&lt;link href='https://fonts.googleapis.com/css?family=Roboto:400, 400italic, 700|Roboto+Condensed|Playfair+Display:400italic' rel='stylesheet' type='text/css'&gt;" rel='stylesheet' type='text/css'>
     <link href="/stylesheets/application.css" rel="stylesheet" type="text/css" media="screen" />
   </head>
-  <body class='bodyLayout'>
-    <header class='headerMain'>
+  <body class='l--body'>
+    <header class='l--masthead l--contain masthead'>
       <a class='headerName__link' href='/'>
-        <h1 class='headerName'>Alejandra Luaces</h1>
+        <h1 class='masthead__logo hidden'>
+          Alejandra Luaces
+        </h1>
       </a>
-      <nav class='navHeader'>
-        <ul class='navHeader__list'>
-          <li class='navHeader__item'>
-            <a class="navHeader__link" href="/writing/">Writing</a>
-          </li>
-          <li class='navHeader__item'>
-            <a class="navHeader__link" href="/work/">Work</a>
-          </li>
-          <li class='navHeader__item'>
-            <a class="navHeader__link" href="mailto:aluacesr@gmail.com?subject=Let's%20Work%20Together!">Contact</a>
-          </li>
+      <nav class='inlineNav'>
+        <ul class='inlineNav__list'>
+          <li class='inlineNav__item'><a class="inlineNav__item" href="/">Work</a></li>
+          <li class='inlineNav__item'><a class="inlineNav__item" href="/writing/">Writing</a></li>
         </ul>
       </nav>
     </header>
-    <section class='contentMain'>
+    <section class='l--main l--contain'>
       <div id='main' role='main'>
         <?xml version="1.0" encoding="UTF-8"?>
         <feed xmlns="http://www.w3.org/2005/Atom">
@@ -34,32 +29,65 @@
           <id>http://blog.url.com/writing</id>
           <link href="http://blog.url.com/writing"/>
           <link href="http://blog.url.com/feed.xml" rel="self"/>
+          <updated>2015-06-28T19:00:00-05:00</updated>
           <author>
             <name>Blog Author</name>
           </author>
+          <entry>
+            <title>We Don’t Need More Negativity</title>
+            <link rel="alternate" href="http://blog.url.com/writing/negativity.html"/>
+            <id>http://blog.url.com/writing/negativity.html</id>
+            <published>2015-06-28T19:00:00-05:00</published>
+            <updated>2015-10-24T12:48:04-05:00</updated>
+            <author>
+              <name>Article Author</name>
+            </author>
+            <content type="html">&lt;p&gt;I recently read &lt;a href="https://medium.com/re-write/we-dont-need-more-designers-who-can-code-b81483d2a0e6"&gt;We Don’t Need More Designers Who Can Code&lt;/a&gt;, an entertaining article which does make one good point: You shouldn’t be expected to be an expert of two very vast, different skillsets.&lt;/p&gt;
+        &lt;p&gt;There is a ton of value in employees understanding everyone’s role on a surface level. It can be &lt;a href="https://twitter.com/allisongray--50ce/status/613843708958638081"&gt;a fun way&lt;/a&gt; to make your company more efficient (many varied perspectives come together and produce better results), and could be a great way to execute UX research/interviews on the fly. However, expecting any one person to be masters of two “highly specialized professions” is asking too much.&lt;/p&gt;
+        &lt;p&gt;The risk is that the organization could be looking for a &lt;a href="http://thenextweb.com/dd/2012/03/31/why-cant-startups-find-designers/"&gt;unicorn&lt;/a&gt;: the person who will forever be spread too thin. A person whose skills may be easy to exploit.&lt;/p&gt;
+        &lt;p&gt;The great, fair points this guy makes in his article are absolutely overshadowed by his disdain for people who are better at both code and design than he is.&lt;/p&gt;
+        &lt;p&gt;Unfortunately, there's plenty of harmful rhetoric to be found within this insubstantial critique–what kind of Medium article would it be without that?&lt;/p&gt;
+        &lt;p&gt;Likening designer/coders to a swiss army knife–an inanimate object that “doesn’t do anything particularly well”–isn’t nice, and isn’t doing anything for our community.&lt;/p&gt;
+        &lt;div class='featureText float--right hang--right'&gt;
+          &lt;q&gt;If you somehow found yourself stranded in a strange wild place fighting for survival, you wouldn’t exactly throw your swiss army knife into a ravine, would you?&lt;/q&gt;
+        &lt;/div&gt;
+        &lt;p&gt;If you somehow found yourself stranded in a strange wild place fighting for survival, you wouldn’t exactly throw your swiss army knife into a ravine, would you? If you happened across a bird stuck in a net, and all you had was a multitool, you probably wouldn’t frantically take it out of your pocket and exclaim “Fuck! There’s too many options! This is a lost cause!” You’d try each of its implements until you got results.&lt;/p&gt;
+        &lt;h3&gt;Your unique skillset is valuable.&lt;/h3&gt;
+        &lt;p&gt;So you shouldn't be expected to be an expert of two very vast, different skill sets. Sure. That totally makes sense! People who both design and code didn't get there by mistake, they got there because of passion–passions that can be easy to exploit. So you shouldn't be expected to know all the things. But what if that's what you expect of yourself? What if you enjoy that?&lt;/p&gt;
+        &lt;p&gt;Raise your hand if you can write production-ready code, push it to GitHub, and still know your ass from a hole in the ground in terms of making an interface look good. Did you raise yours? I have one thing to say to you: You are valuable. The years you worked to get to where you are were worth it. Someone needs you. In fact, we all need you. And you are definitely not alone.&lt;/p&gt;
+        &lt;p&gt;It’s advantageous to consider what is right or valuable for you. What niche will you carve out for yourself?&lt;/p&gt;
+        &lt;h3&gt;How do you identify?&lt;/h3&gt;
+        &lt;p&gt;You are likely a pretty good expert of your own domain . Are you a specialist? Are you a generalist? Of course, there are exceptions to the rule; people biting off a bit more than they can chew and their pride and prevarication end up wasting a company’s precious resources. Let's assume most people aren’t actually like that. I’d argue that it’s up to you to label yourself, and presumptuous for others to do so for you.&lt;/p&gt;
+        &lt;h3&gt;What do you enjoy doing?&lt;/h3&gt;
+        &lt;p&gt;Do you enjoy working on a variety of projects with different clients? Are you a developer who values design and wants to learn how to make things look presentable and professional instead of waiting for your organization to free up precious design resources? Great! Learn some design skills and kick ass! Are you a designer who loves giving your left brain a workout, want to build sites to help friends and family, or learn a useful skills to add value to your personal brand? Good on you! Go learn some JavaScript or Rails or whatever it is that you think will address your need or make you happy!&lt;/p&gt;
+        &lt;p&gt;Are you detail-oriented? Do you enjoy working on one product or family of offerings, elevating them to near-perfection? Would you or your friends, family, or loved ones describe you as a perfectionist? Become an expert in your domain. Go ahead and know everything there is to know about that particular thing you love! &lt;a href="http://jessicahische.com"&gt;Jessica Hische&lt;/a&gt; is a hard-working and successful, well-known specialist. And she’s doing what she loves, which is literally the only thing that matters.&lt;/p&gt;
+        &lt;p&gt;Generalists change the world, and specialists perfect it. It's up to you to decide which feels right.&lt;/p&gt;
+        &lt;h3&gt;Who do you want to work for?&lt;/h3&gt;
+        &lt;p&gt;Startups are scrappy and generally low on resources. Typically, they’ll be looking for candidates that are pretty good at many different skillsets so they can start adding value to their organization, which will in turn allow them to add more specialists for support.Larger organizations can afford to have robust teams of specialists. Of course, specialists can exist within startups, and generalists can act as liaisons between silos of specialty in a behemoth organization.&lt;/p&gt;
+        &lt;div class='featureText float--left hang--left'&gt;
+          &lt;q&gt;Specialists can exist within startups, and generalists can act as liaisons between silos of specialty in a behemoth organization.&lt;/q&gt;
+        &lt;/div&gt;
+        &lt;p&gt;Neither of these are wrong.&lt;/p&gt;
+        &lt;p&gt;Too often in tech, we squabble over who best deserves to serve users, and lose empathy for one another.&lt;/p&gt;
+        &lt;p&gt;If we use this article as a guide, it would have us believe working together seamlessly requires empathy–with the stipulation that we remain compartmentalized. Unfortunately, this is not an accurate representation of our world.&lt;/p&gt;
+        &lt;p&gt;Software isn’t just bezier curves and programming languages. Whether you are a specialist or a generalist, the technical aspects of your work are just a small part of what your responsibilities are. Soft skills–that is, communicating effectively and being decent to the people you work with–are vital. It’s been proven that no one wants to work with an asshole no matter how smart they are or how many hours they work. We really don’t need more negativity.&lt;/p&gt;
+        &lt;div class='centeredBlock'&gt;
+          &lt;blockquote class="twitter-tweet" lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;psa: all of your code is ephemeral &amp;amp; will one day not even matter. it probably doesn&amp;#39;t even matter now. how you treat your peers matters 💫&lt;/p&gt;&amp;mdash; jennmoneydollars (@jennschiffer) &lt;a href="https://twitter.com/jennschiffer/status/600109116019838976"&gt;May 18, 2015&lt;/a&gt;&lt;/blockquote&gt;
+        &lt;/div&gt;
+        &lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+        &lt;p&gt;Nurturing our community of learners and growers and teachers is a social responsibility that we all have. It’s part of the unwritten contract you sign by choosing to enter this industry. Unless you’re just here for yourself. Do you want to be the kind of person who admits to that?&lt;/p&gt;
+        &lt;p&gt;We allow our own personal experiences to serve as platforms from which we can look down on one another, wagging our fingers at the person least like ourselves. “We don’t need more designers who can code!” Well, maybe you don’t. But someone really, really does.&lt;/p&gt;
+        </content>
+          </entry>
         </feed>
       </div>
     </section>
-    <footer class='footerMain'>
-      <a href="http://github.com/alejandraluaces"><svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      	 x="0px" y="0px" width="30px" height="30px" viewBox="0 0 500 500" xml:space="preserve">
-      <path class="icon" d="M203.9,217.6c0,17.3-14,31.4-31.4,31.4s-31.4-14-31.4-31.4s14-31.4,31.4-31.4S203.9,200.3,203.9,217.6z
-      	 M360.8,186.2c-17.3,0-31.4,14-31.4,31.4s14,31.4,31.4,31.4s31.4-14,31.4-31.4S378.1,186.2,360.8,186.2z M454.9,5.8v211.8
-      	c0,51.8-42.4,94.1-94.1,94.1h-27.6c12.3,14.9,19.8,34.1,19.8,54.9v117.7c0,8.7-7,15.7-15.7,15.7s-15.7-7-15.7-15.7v-94.1
-      	c0-10.2-6.6-18.9-15.7-22.2v116.3c0,8.7-7,15.7-15.7,15.7s-15.7-7-15.7-15.7V366.7h-15.7v117.7c0,8.7-7,15.7-15.7,15.7
-      	c-8.7,0-15.7-7-15.7-15.7V368c-9.1,3.2-15.7,12-15.7,22.2v94.1c0,8.7-7,15.7-15.7,15.7s-15.7-7-15.7-15.7V405c0,0,0,0,0,0
-      	c-9.9,5.4-22.7,8.7-39.2,8.7c-27.8,0-62.9-17.2-89.5-43.8c-3.1-3.1-4.6-7.1-4.6-11.1c0-4,1.5-8,4.6-11.1c3.1-3.1,7.1-4.6,11.1-4.6
-      	c4,0,8,1.5,11.1,4.6c20.4,20.4,48.1,34.6,67.3,34.6c23,0,34.9-8.2,39.7-27.3c0.2-0.6,0.4-1.2,0.6-1.8c0,0,0,0,0,0
-      	c2.5-15.6,9.1-29.8,18.7-41.4h-27.6c-51.8,0-94.1-42.4-94.1-94.1V5.8c0-3,1.7-5.8,4.4-7.1C84-1.7,85.1-2,86.3-2
-      	c1.7,0,3.5,0.6,4.9,1.7l76.3,61h198.4l76.3-61c1.4-1.1,3.2-1.7,4.9-1.7c1.2,0,2.3,0.3,3.4,0.8C453.2,0.1,454.9,2.8,454.9,5.8z
-      	 M423.6,217.6c0-34.5-28.2-62.8-62.8-62.8H172.6c-34.5,0-62.8,28.2-62.8,62.8c0,34.5,28.2,62.8,62.8,62.8h188.2
-      	C395.3,280.4,423.6,252.1,423.6,217.6z"/>
-      </svg>
+    <footer class='footer l--footer'>
+      <a href="http://github.com/alejandraluaces"><img class='footer__icon' src='../images/svg/octocat.svg'>
       </a>
-      <p class='footerText'>This website is in a state of constant improvement, like all things on the web should be.</p>
-      <p class='footerText'>I used <a href="https://middlemanapp.com/">Middleman</a> on <a href="https://pages.github.com/">Github Pages</a>, <a href="http://haml.info/">HAML</a> and <a href="http://sass-lang.com/">SASS</a>, <a href="https://css-tricks.com/bem-101/">BEM</a> naming conventions, and organized my files and thoughts according to <a href="http://bradfrost.com/blog/post/atomic-web-design/">atomic design</a> patterns. I used the <a href="https://www.google.com/fonts">Google web fonts</a> Lato and Playfair, not because they're free, but because I like them. Feel free to <a href="https://github.com/alejandraluaces/alejandraluaces.github.io-source">check it out</a>.</p>
+      <p class='footer__colophon'>This site uses <a href="https://middlemanapp.com/">Middleman</a> on <a href="https://pages.github.com/">Github Pages</a>. Check out the <a href="https://github.com/alejandraluaces/alejandraluaces.github.io-source">source files</a>.</p>
     </footer>
   </body>
-  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js' type='text/javascript'></script>
-  <script src='javascripts/links.js'></script>
 </html>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js' type='text/javascript'></script>
+<script src='javascripts/links.js'></script>
